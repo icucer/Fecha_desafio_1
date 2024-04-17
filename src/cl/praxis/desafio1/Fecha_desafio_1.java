@@ -58,7 +58,7 @@ public class Fecha_desafio_1 {
             // El año no acepta valores menores a 0.
             if (((diaPersona1 < 1) || (diaPersona1 > 31)) || ((diaPersona2 < 1) || (diaPersona2 > 31))) {
                 System.out.println("El día ingresado no está en el rango válido (1-31) en siguiente formato DD/MM/AAAA.");
-            } else if (((mesPersona1 < 1) || (mesPersona1 > 12) || (mesStringPersona1.length() != 2)) || ((mesPersona2 < 1) || (mesPersona2 > 12) || (mesStringPersona2.length() != 2))) {
+            } else if (((mesPersona1 < 1) || (mesPersona1 > 12)) || ((mesPersona2 < 1) || (mesPersona2 > 12))) {
                 System.out.println("El mes ingresado no está en el rango válido (1-12)  en siguiente formato DD/MM/AAAA.");
             } else if ((añoPersona1 < 1) || (añoPersona2 < 1)) {
                 System.out.println("El año ingresado debe ser mayor que 0.");
