@@ -70,13 +70,13 @@ public class Fecha_desafio_1 {
         } while (true);
 
         // Proceso de comparación de los datos para determinar cuál de las dos personas es mayor.
-        if (añoPersona1 > añoPersona2) {
+        if (añoPersona1 < añoPersona2) {
             System.out.println("Persona 1 es mayor.");
         } else if (añoPersona1 == añoPersona2) {
-            if (mesPersona1 > mesPersona2) {
+            if (mesPersona1 < mesPersona2) {
                 System.out.println("Persona 1 es mayor.");
             } else if (mesPersona1 == mesPersona2) {
-                if (diaPersona1 > diaPersona2) {
+                if (diaPersona1 < diaPersona2) {
                     System.out.println("Persona 1 es mayor.");
                 } else if (diaPersona1 == diaPersona2) {
                     System.out.println("Tienen la misma edad.");
